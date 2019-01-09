@@ -15,6 +15,7 @@
   <repo>https://github.com/appfeel/analytics-google.git</repo>
   <issue>https://github.com/appfeel/analytics-google/issues</issue>
   
+    <hook src="hooks/after_prepare/01-googleFiles.js" type="after_prepare"/>
   <hook type="after_prepare" src="hooks/after_prepare/999-admobPluginNotice.js" />
   
   <js-module src="www/analytics.js" name="GAPlugin">
